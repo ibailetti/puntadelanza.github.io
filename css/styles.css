@@ -1,6 +1,6 @@
 @font-face{
     font-family: "Assasins Creed";
-    src: url(/css/fonts/Assassin$.ttf) format("truetype");
+    src: url(fonts/Assassin$.ttf) format("truetype");
 }
 
 header{
@@ -8,13 +8,22 @@ header{
     padding-bottom: 30px;
 }
 
-#container{
+nav{
+    background-color: #041418 !important;
+}
+
+.container{
     padding-left: 10%;
     padding-right: 10%;
 }
 
+section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 h1, h3{
-    font-family: "Assasins Creed";
+    font-family: "Assasins Creed", "Sans Serif";
     color: #041418;
     text-transform: uppercase;
     text-align: center;
@@ -28,14 +37,28 @@ h3{
     font-size: 36px;
 }
 
-p{
+h5{
+    font-size: 12px
+}
+
+p, a{
+    font-family: "Sans Serif";
     text-align: center;
 }
 
 img{
-    width: 250px;
-    height: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.one{    
+    width: 50px;
+    height: 50px;
+}
+
+.two{
+    
+    width: 250px;
+    height: 250px;
 }

@@ -9,26 +9,44 @@
         <title>Punta de Lanza</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Bootstrap-->
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!--Custom-->
+        <link rel="stylesheet" href="css/nav.css">
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div id="container">
+        <div class="container">
             <header>
+                <nav class="navbar fixed-top">
+                    <div class="logo">
+                        <img src="img/logo/PDL2.png"/>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Galeria de Productos</a></li>
+                        <li><a href="#">Trabajos</a></li>
+                        <li><a href="#">Proyectos</a></li>
+                    </ul>
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </nav>
+            </header>
+            <section>                
                 <div class="row">
                     <div class="col-md-12">
-                            
-                        <img src="img/PDL2.png"/>
+                        <img class="two" src="img/logo/PDL3.png"/>
                     </div>                    
                 </div>
-            </header>
-            <section>
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Punta de Lanza</h1>
+                        <h1>Punta de LANZA</h1>
                         <h3>Studio</h3>
                     </div>
                     <div class="col-md-12">
@@ -40,6 +58,7 @@
                 <p>Copyright <b>Punta de Lanza</b> 2019</p>
             </footer>
         </div>
-        <script src="" async defer></script>
+
+        <script src="js/app.js"></script>
     </body>
 </html>
