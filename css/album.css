@@ -1,0 +1,16 @@
+.album{
+    background-color: #f8f9fa;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.card{
+    margin-bottom: 1.5rem;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+.card-buttons{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}

@@ -2,47 +2,71 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Punta de Lanza</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--Bootstrap-->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!--Custom-->
-        <link rel="stylesheet" href="css/nav.css">
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Punta de Lanza</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!--Custom-->
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/album.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div class="container">
-            <header>
-                <nav class="navbar fixed-top">
-                    <div class="logo">
-                        <img src="img/logo/PDL2.png"/>
-                    </div>
-                    <ul class="nav-links">
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Galeria de Productos</a></li>
-                        <li><a href="#">Trabajos</a></li>
-                        <li><a href="#">Proyectos</a></li>
-                    </ul>
-                    <div class="burger">
-                        <div class="line1"></div>
-                        <div class="line2"></div>
-                        <div class="line3"></div>
-                    </div>
-                </nav>
-            </header>
-            <section>                
+
+    <header>
+        <div class="navbar fixed-top">
+            <div class="logo">
+                <img src="img/logo/PDL2.png" />
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Trabajos</a></li>
+                <li><a href="#">Proyectos</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+    <main role="main">
+        <section>
+            <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="two" src="img/logo/PDL3.png"/>
-                    </div>                    
+                        <img class="two" src="img/logo/PDL3.png" />
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
@@ -50,15 +74,102 @@
                         <h3>Studio</h3>
                     </div>
                     <div class="col-md-12">
-                        
+                        <p>Copyright <b>Punta de Lanza</b> 2019</p>
                     </div>
                 </div>
-            </section>
-            <footer>
-                <p>Copyright <b>Punta de Lanza</b> 2019</p>
-            </footer>
+            </div>
+        </section>
+        <!--Album-->
+        <div class="album">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="three bd-placeholder-img card-img-top" src="img/cuadros/peinados/c4.jpg" />
+                            <!--svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#041418"></rect><text x="50%" y="50%"
+                                    fill="#eceeef" dy=".3em">Thumbnail</text>
+                            </svg-->
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="card-buttons">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="three bd-placeholder-img card-img-top" src="img/cuadros/peinados/c2.jpg" />
+                            <!--svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                                    focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                                    <title>Placeholder</title>
+                                    <rect width="100%" height="100%" fill="#041418"></rect><text x="50%" y="50%"
+                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                            </svg-->
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="card-buttons">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="three bd-placeholder-img card-img-top" src="img/cuadros/peinados/c1.jpg" />
+                            <!--svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                                    focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                                    <title>Placeholder</title>
+                                    <rect width="100%" height="100%" fill="#041418"></rect><text x="50%" y="50%"
+                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                            </svg-->
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="card-buttons">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <script src="js/app.js"></script>
-    </body>
+        </section>
+        <footer>
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="tel:+5493513884480"><img class="icon" src="img/icons/Phone-001.png"></a>
+                </div>
+                <div class="col-md-6">
+                    <a href="#"><img class="icon" src="img/icons/Location-001.png"></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+
 </html>

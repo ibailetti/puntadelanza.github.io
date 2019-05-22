@@ -3,6 +3,11 @@
     src: url(fonts/Assassin$.ttf) format("truetype");
 }
 
+@font-face{
+    font-family: "DIN2014-Light";
+    src: url(fonts/DIN2014-Light.ttf) format("truetype");
+}
+
 header{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -42,7 +47,7 @@ h5{
 }
 
 p, a{
-    font-family: "Sans Serif";
+    font-family: "DIN2014-Light";
     text-align: center;
 }
 
@@ -57,8 +62,24 @@ img{
     height: 50px;
 }
 
-.two{
-    
+.two{    
     width: 250px;
     height: 250px;
+}
+
+.three{
+    width: 100%;
+    height: 225px;
+}
+
+footer{        
+    font-family: "DIN2014-Light";
+    background-color: #041418;
+}
+
+.icon{
+    width: 36px;
+    height: 36px;
+    margin-top: 6.25px;
+    margin-bottom: 6.25px;
 }
